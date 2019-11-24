@@ -1,0 +1,21 @@
+{
+	"name": "get-html-locale",
+	"version": "1.0.0",
+	"description": "Gets locale based on HTML lang attribute",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/penhold3r/get-html-locale.git"
+	},
+	"author": "Penholder Designerd <penhold3r@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/penhold3r/get-html-locale/issues"
+	},
+	"homepage": "https://github.com/penhold3r/get-html-locale#readme",
+	"keywords": [
+		"locale",
+		"localitation",
+		"lang"
+	]
+}
