@@ -4,7 +4,7 @@ Gets locale based on HTML lang attribute
 
 ## Install
 
-`npm i get--html-locale`
+`npm i get-html-locale`
 
 ## Usage
 
