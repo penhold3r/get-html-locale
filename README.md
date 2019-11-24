@@ -1,4 +1,4 @@
-# Get Locale
+# Get HTML Locale
 
 Gets locale based on HTML lang attribute
 

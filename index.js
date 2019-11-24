@@ -1,18 +1,16 @@
-module.exports = {
-   /**
-    * Gets locale based on HTML lang attribute
-    * @returns {object} {code, lang, region}
-    */
-   getHTMLLocale = () => {
-      const code = document.querySelector('html').getAttribute('lang')
+/**
+* Gets locale based on HTML lang attribute
+* @returns {object} {code, lang, region}
+*/
+module.exports.getHTMLLocale = () => {
+   const code = document.querySelector('html').getAttribute('lang')
 
-      return code
-         ? locale = {
-            code: code.substr(0, 2),
-            ...LOCALES[code]
-         }
-         : '⚠ - No lang attribute'
-   }
+   return code
+      ? locale = {
+         code: code.substr(0, 2),
+         ...LOCALES[code]
+      }
+      : '⚠ - No lang attribute'
 }
 
 const LOCALES = {
