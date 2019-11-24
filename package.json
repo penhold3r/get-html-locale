@@ -1,6 +1,6 @@
 {
 	"name": "get-html-locale",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Gets locale based on HTML lang attribute",
 	"main": "index.js",
 	"repository": {

@@ -9,7 +9,7 @@ Gets locale based on HTML lang attribute
 ## Usage
 
 ```javascript
-import getHTMLLocale from 'get-html-locale'
+import { getHTMLLocale } from 'get-html-locale'
 
 const locale = getHTMLLocale()
 
